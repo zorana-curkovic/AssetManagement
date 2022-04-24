@@ -12,7 +12,7 @@ public class AddressableSpriteLoader : MonoBehaviour
     public bool useAddress;
     
     private SpriteRenderer spriteRenderer;
-    void Start()
+    public void LoadSprite()
     {
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
 

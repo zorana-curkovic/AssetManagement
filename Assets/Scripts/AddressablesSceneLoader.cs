@@ -7,7 +7,7 @@ public class AddressablesSceneLoader : MonoBehaviour
 {
     [SerializeField] private AssetReference sceneAssetReference;
     
-    void Start()
+    public void LoadScene()
     {
         sceneAssetReference.LoadSceneAsync(UnityEngine.SceneManagement.LoadSceneMode.Additive);
     }

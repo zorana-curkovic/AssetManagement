@@ -16,7 +16,7 @@ public class AddressableAtlasedSpriteLoader : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     
 
-    void Start()
+    public void LoadAtlasedSprite()
     {
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
 

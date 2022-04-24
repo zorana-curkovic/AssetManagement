@@ -45,6 +45,10 @@ MonoBehaviour:
     m_Address: Assets/Scenes/City.unity
     m_ReadOnly: 0
     m_SerializedLabels: []
+  - m_GUID: 001952c674896411b98f533a92faadba
+    m_Address: Assets/Addressables/OrangeCube.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 48934d26a9b404d8bb018c426815f70f, type: 2}
   m_SchemaSet:

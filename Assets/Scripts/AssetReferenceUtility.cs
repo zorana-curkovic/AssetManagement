@@ -6,6 +6,8 @@ using UnityEngine.ResourceManagement.AsyncOperations;
 
 public class AssetReferenceUtility : MonoBehaviour
 {
+    public AssetReferenceGameObject gameObjectToLoad;
+    
     public AssetReference objectToLoad;
 
     public AssetReference accessoryObjectToLoad;
@@ -13,8 +15,13 @@ public class AssetReferenceUtility : MonoBehaviour
     private GameObject instantiatedObject;
 
     private GameObject instantiatedAccessoryObject;
-    // Start is called before the first frame update
-    void Start()
+
+    public void InstantiateGO()
+    {
+        Addressables.InstantiateAsync(gameObjectToLoad);
+    }
+    
+    public void LoadHierarchy()
     {
         Addressables.LoadAssetAsync<GameObject>(objectToLoad).Completed += ObjectLoadDone;
     }
