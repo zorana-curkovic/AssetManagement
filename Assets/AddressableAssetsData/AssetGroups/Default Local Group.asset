@@ -41,6 +41,10 @@ MonoBehaviour:
     m_Address: Assets/Free Asset - 2D Handcrafted Art/Sprite/spriteAtlas.spriteatlas
     m_ReadOnly: 0
     m_SerializedLabels: []
+  - m_GUID: 0433a7f3248794cdda713e5022972495
+    m_Address: Assets/Scenes/City.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 48934d26a9b404d8bb018c426815f70f, type: 2}
   m_SchemaSet:
