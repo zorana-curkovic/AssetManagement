@@ -5,8 +5,11 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/AtlasMemoryTest.unity
     guid: 33baa2d8960574d8c9ae56e69a5a02b0
+  - enabled: 1
+    path: Assets/Scenes/Loaders.unity
+    guid: ac27b9b965e594be3b90c82fdec27e27
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 6265ec8c54ad44d9fb9f02864c0c288b, type: 2}
